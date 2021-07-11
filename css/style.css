@@ -311,6 +311,7 @@ footer{
   footer{
     position: relative;
     bottom: 0px;
+    width: 90%;
   }
   .main-content{
     flex-wrap: wrap;
