@@ -59,22 +59,7 @@ form .form-row .textarea{
   font-size: 14px;
   color: #3498db;
 }
-.textarea textarea{
-  resize: none;
-  padding-top: 10px;
-}
-.input-data label{
-  position: absolute;
-  pointer-events: none;
-  bottom: 10px;
-  font-size: 16px;
-  transition: all 0.3s ease;
-}
-.textarea label{
-  width: 100%;
-  bottom: 40px;
-  background: #fff;
-}
+
 .input-data .underline{
   position: absolute;
   bottom: 0;
