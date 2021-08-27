@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my shop</title>
+    <link rel="shortcut icon" href="../images/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/plus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function clickme(smallImg) {
+      
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src;
+      
+        }
+      </script>
+</head>
+<body>
+    <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+      <div class="wrapper">
+         <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="store.html">store</a></li>
+            <li><a href="../page/thanks.html">contact</a></li>
+         </ul>
+      </div>
+      <div class="container">
+        <div class="canal">
+          <div class="slido">
+            
+              <div class="product">
+    
+                  <img src="../images/shoe2.png" alt="" onclick="clickme(this)">
+                  <img src="../images/shoe4.png" alt="" onclick="clickme(this)">
+                  <img src="../images/watch4.png" alt="" onclick="clickme(this)">
+                  <img src="../images/watch2.png" alt="" onclick="clickme(this)">
+    
+              </div>
+              <div class="preview">
+                <img src="../images/watch3.png" id="imagebox" alt="">
+            </div>
+              
+          </div>
+    
+      </div>
+        <div class="row">
+        
+          <div class="col-md-7">
+              <p class="newarrival text-center">NEW</p>
+              <h2> tshirt mode new arrival</h2>
+              <p>produit code AXCR12</p>
+              <img src="../images/stars.png" class="stars">
+              <p class="price"> 1500 da</p>
+              <p> <b>Avialability:</b> pas in  stock </p>
+              <p> <b>Condition:</b> NEW</p>
+              <p> <b>Brand:</b> XYZ company</p>
+              <a href="../page/order.html">BUY NOW</a>
+             
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="main-content">
+        <div class="left box">
+          <h2>About us</h2>
+          <div class="content">
+            <p>sahleasy web development, ui/ux designing, html css tutorial, hover animation and effects, javascript</p>
+            <div class="social">
+              <a href=""><span class="fab fa-facebook-f"></span></a>
+              <a href=""><span class="fab fa-instagram"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="center box">
+          <h2>contact</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">bouira algeria </span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">000</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">abc@example.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="bottom">
+      <center>
+        <span class="credit">Created By <a href="">SahlEasy</a> | </span>
+        <span class="far fa-copyright"></span><span> 2021 All rights reserved.</span>
+      </center>
+    </div>
+</body>
+</html>
