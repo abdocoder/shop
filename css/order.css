@@ -41,7 +41,7 @@ form .form-row .input-data{
   margin: 0 20px;
   position: relative;
 }
-form .form-row .textarea{
+form .form-row{
   height: 70px;
 }
 .input-data input,
@@ -109,6 +109,16 @@ form .form-row .textarea{
   cursor: pointer;
   position: relative;
   z-index: 2;
+}
+.thanks{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+  background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #c360eb);
+  border-radius: 5px;
+  
 }
 @media (max-width: 700px) {
   .container .text{
