@@ -21,11 +21,7 @@
  padding: 10px;
 
 }
-.canal{ 
-    width: 100%;
-    display: flex;
-    justify-content: space-between; 
-   }
+
 .slido{
  width: 100%;
  height: 80vh;
@@ -94,6 +90,9 @@ justify-content: space-between;
         
      
     } 
+    .slido{
+        display: inline-block;
+    }
     .row{
         display:block;
        
