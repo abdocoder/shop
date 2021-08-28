@@ -106,10 +106,12 @@ justify-content: space-between;
         text-align: center;
 
     }
-    .preview img{
-        width: 50%;
+  .preview img{
+        width: 80%;
         height: auto;
-
     }
-   
+    .smallimg{
+        width: 50px;
+        height: 50px;
+    }
   }
