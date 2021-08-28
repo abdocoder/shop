@@ -13,12 +13,14 @@
    
 } 
 
-.row{
+.ruw{
  width: 100%;
  margin: 10px;
  display: flex;
  justify-content: space-between;
  padding: 10px;
+
+
 
 }
 
@@ -48,15 +50,15 @@ justify-content: space-between;
     font-size: 12px;
     font-weight: bold;
 } 
-.col-md-7{
+.detail{
     padding: 70px;
 
    
 }
-.col-md-7 p{
+.detail p{
     margin-bottom:20px;
 }
-.col-md-7 h2{
+.detail h2{
     color:#555;
 } 
 .stars{
@@ -69,7 +71,7 @@ justify-content: space-between;
     padding-top: 20px;
     
 }
-.col-md-7 a{
+.detail a{
    text-decoration: none;
    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
    transition: all 0.4s;
@@ -78,9 +80,13 @@ justify-content: space-between;
    font-weight: bold;
    border-radius: 5px;
    padding: 5px;
+   color: white;
    
    
    
+}
+.row{
+    margin: 60px;
 }
 @media all and (max-width: 968px) {
     .container{
@@ -93,7 +99,7 @@ justify-content: space-between;
     .slido{
         display: inline-block;
     }
-    .row{
+    .ruw{
         display:block;
        
     }
