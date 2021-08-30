@@ -352,6 +352,9 @@ footer{
   .main-content .box{
     margin: 5px 0;
   }
+  .service{
+    display: block;
+  }
   
   .canvalogo{
     text-align: center;
