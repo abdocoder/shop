@@ -355,6 +355,10 @@ footer{
   .service{
     display: block;
   }
+   .service img{
+    width: 400px;
+
+  }
   
   .canvalogo{
     text-align: center;
