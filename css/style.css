@@ -354,9 +354,11 @@ footer{
   }
   .service{
     display: block;
+    padding: 0;
+    margin: 5px;
   }
    .service img{
-    width: 350px;
+    width: 300px;
 
   }
   
